@@ -1,0 +1,111 @@
+@import url("https://fonts.google.com/share?selection.family=Inter:wght@200");
+
+.main-box {
+  background-color: #FFF;
+  display: flex;
+  justify-content: center;
+}
+
+.add-detail-box {
+  width: 78%;
+  margin-bottom: 102px;
+}
+
+.heading {
+    margin-top: 65px;
+  padding-top: 10px;
+  position:relative;
+}
+
+.heading::before{
+    content:"";
+    position: absolute;
+    top:0;
+    width:80px;
+    height:6px;
+    background-color: #20856A;
+}
+
+.heading h1 {
+  color: #303030;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.catagory-box {
+  margin-top: 42px;
+}
+
+.catagory-box p,
+.images-box p,
+.title-box p,
+.rate-box p,
+.availability-box p,
+.warranty-box p,
+.tag-box p,
+.description-box p {
+  color: #707070;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.select-box,
+.input-box {
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid #a5a5a5;
+}
+
+.images-box,
+.title-box,
+.rate-box,
+.availability-box,
+.warranty-box,
+.tag-box,
+.description-box {
+  margin-top: 40px;
+}
+
+.image-btn {
+  padding: 10px 73px;
+  border-radius: 5px;
+  border: none;
+  background: #dbdbdb;
+  color: #5f5f5f;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.desc-input-box {
+  width: 100%;
+  height: 328px;
+  border-radius: 5px;
+  border: 1px solid #a5a5a5;
+}
+
+.submit-btn {
+  margin-top: 65px;
+  padding: 13px 73px;
+  border-radius: 10px;
+  border: 1px solid #21856b;
+  background: #21856b;
+  box-shadow: 0px 0px 10px 0px #21856b;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  cursor: pointer;
+}

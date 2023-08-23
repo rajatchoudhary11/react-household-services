@@ -1,0 +1,55 @@
+.search-container{
+    width: 959px;
+height: 84px;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+display: flex;
+align-items: center;
+}
+
+.keyword-box{
+    margin-right: 64px;
+    padding-left: 40px;
+    border-left: 5px solid #20856A;
+}
+
+.keyword-box input,
+.location-box input{
+width: 377px;
+height: 51px;
+border: none;
+border-bottom: 1px solid #B8B8B8;
+font-size: 30px;
+}
+
+input::placeholder{
+    color: #A8A8A8;
+font-size: 30px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.location-box{
+    position: relative;
+    margin-right: 15px;
+}
+
+
+.location-icon{
+background: url('../../images/searchbar-location-icon.png') right 10px center no-repeat;
+background-size: 21px 30px;
+}
+
+.serach-icon-box{
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    background-color: #21856B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

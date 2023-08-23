@@ -1,0 +1,142 @@
+.box {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.box-1 {
+  position: relative;
+  flex: 1;
+}
+
+.leftbackgroundline1 {
+  position: absolute;
+  left: 150px;
+}
+
+.leftbackgroundline2 {
+  position: absolute;
+  top: 400px;
+}
+
+.leftbackgroundline3 {
+  position: absolute;
+  top: 390px;
+  left:55px;
+}
+
+.image-box{
+  position: relative;
+  min-width: 550px;
+  min-height:500px;
+ margin-top: 220px;
+ margin-left: 55px;
+}
+.womanImage {
+  max-width: 279.99px;
+  max-height: 278.22px;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 4;
+  
+}
+
+.mechanicImage {
+  max-width: 259.13px;
+  max-height: 272.04px;
+  border-radius: 50%;
+  background-color: #ffd644;
+  overflow: hidden;
+  z-index: 6;
+  position: absolute;
+  top: 250px;
+  left: 30px;
+}
+
+.plumberImage {
+  width: 377.86px;
+  height: 400.99px;
+  border-radius: 50%;
+  background-color: #20856a;
+  overflow: hidden;
+  z-index: 5;
+  position: absolute;
+  top: 50px;
+  left: 200px;
+}
+
+.womanImage img,
+.mechanicImage img,
+.plumberImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.box-2 {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rightLineBackground {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.heading-box {
+  margin-top: 180px;
+  max-width: 695px;
+  max-height: 226px;
+}
+
+.heading-box h1 {
+  color: #101010;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.paragraph-box {
+  max-width: 706px;
+  max-height: 199px;
+}
+
+.paragraph-box p {
+  color: #5f5f5f;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.button-box {
+  max-width: 691px;
+  max-height: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-box button {
+  max-width: 121px;
+  max-height: 35px;
+  background-color: rgba(33, 134, 107, 0.2);
+  color: rgba(33, 134, 107, 1);
+  border-radius: 25px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+
+}

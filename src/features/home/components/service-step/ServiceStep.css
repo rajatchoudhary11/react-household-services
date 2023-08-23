@@ -1,0 +1,65 @@
+.started {
+    text-align: center;
+    font-weight: 600;
+    font-size:40px;
+}
+.simle-steps{
+    text-align: center;
+    font-weight: 300;
+    font-size: 36px;
+    color: #A9A7A7;
+    margin: 23px;
+   
+}
+.simle-steps h3{
+    font-weight: 400;
+    font-size:25px;
+}
+
+
+.simle-steps p{
+  font-weight:200;
+  font-size:20px;   
+  color:#000000;
+}
+
+.step-oll{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 64px;
+    
+}
+
+.div1 {
+    max-width: 263px;
+    text-align: center;
+}
+
+.div2 {
+    max-width: 263px;
+    text-align: center;
+}
+
+.div3{
+    max-width: 263px;
+    text-align: center;
+}
+
+.service-steps{
+    position: relative;
+    background: #F1F1F1 ;
+    margin-top: 100px;
+    margin-right: 55px;
+    margin-left: 55px;
+    border: 13px;
+    padding-top: 63px;
+    padding-bottom: 63px;
+    border-radius: 10px;
+}
+
+.srvice-step-right{
+    position: absolute;
+    right: -58px;
+    top: -156px;
+}
+

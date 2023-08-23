@@ -1,0 +1,132 @@
+.testimonials-cont {
+    padding-top: 68px;
+    position: relative;
+    padding-bottom: 191px;
+}
+
+.testimonial-header {
+    text-align: center;
+    padding-bottom: 43px;
+    padding-top: 51px;
+}
+
+.testimonial-header p {
+    font-weight: 300;
+    font-size: 26px;
+    color: #A9A7A7;
+}
+
+.testimonial-header h3 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.testimonial-left-lines,
+.testimonial-right-lines {
+    position: absolute;
+}
+
+.Testimonial{
+    position: relative;
+    z-index: 20;
+    background-color: white;
+}
+.testimonial-left-lines {
+    top: -139px;
+    left: 0px;
+}
+
+.testimonial-right-lines {
+    top: 169px;
+    right: 0px;
+    z-index: 10px;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+   
+}
+
+.testimonial {
+    max-width: 613px;
+    max-height: 290px;
+    display: flex;
+    --radius: 8px;
+    border-radius: var(--radius);
+    box-shadow: 0px 0px 8px 0px #00000080;
+    background: white;
+    z-index: 20;
+}
+
+.testimonial-image-cont {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.testimonial-image {
+    border-radius: var(--radius);
+}
+
+.testimonial-content {
+    flex: 1;
+}
+
+.testimonial-content__name {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 9px;
+    margin-top: 25px;
+}
+
+.testimonial-content__rating {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.testimonial-content__feedback {
+    color: #717171;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.chavnor{
+    display: flex;
+    justify-content: center;
+    padding-top: 83px;
+    gap: 32px;
+}
+
+.gr-next{
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.25);
+    border: 0;
+    cursor: pointer;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    transition: all 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.gr-previous{
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.25);
+    border: 0;
+    cursor: pointer;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    transition: all 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+}

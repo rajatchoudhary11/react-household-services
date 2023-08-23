@@ -1,0 +1,130 @@
+@import url("https://fonts.google.com/share?selection.family=Inter:wght@200");
+
+.carditem {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.searchbar-box{
+  position: absolute;
+  top: -23px;
+  right: 60px;
+}
+
+.card-container {
+  width: 93%;
+  margin-top: 157px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 73px;
+  justify-content: center;
+}
+
+.card-box {
+  width: 312px;
+  height: 346px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.icon-box {
+  max-width: 62px;
+  max-height: 62px;
+  margin-top: 38px;
+  margin-left: 49px;
+  border-radius: 7px;
+  background: rgba(33, 134, 107, 0.3);
+}
+
+.service-icon {
+  max-width: 42px;
+  max-height: 42px;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.service-heading {
+  color: #303030;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-left: 49px;
+}
+
+.service-desc {
+  margin-left: 49px;
+  color: #a9a7a7;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.listing-btn {
+  margin-left: 49px;
+  display: flex;
+  border-right: 5px solid #20856a;
+}
+
+.listing-btn button {
+  padding: 10px 27px;
+  border-radius: 7px;
+  background: rgba(33, 133, 107, 0.25);
+  border: none;
+  color: #21856b;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.next-icon {
+  margin-left: 43px;
+  width: 37px;
+  height: 37px;
+  background-color: #21856b;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.next-icon img {
+  width: 15px;
+  height: 10px;
+  object-fit: contain;
+}
+
+.explore-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 227px;
+  height: 42px;
+  border-radius: 7px;
+  background: rgba(33, 133, 107, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.explore-item p {
+  color: #21856b;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top: 0;
+  margin-bottom: 0;
+}
